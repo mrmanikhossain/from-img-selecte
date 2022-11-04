@@ -1,0 +1,315 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;   
+}
+body{
+    font-family: inherit;
+    background: rgb(213, 144, 144);
+}
+
+header{
+    width:80%;
+    height:470vh;
+   background: #fff;
+    margin: 0 auto;
+    position: relative;
+}
+
+.container-0{
+    width: 95%;
+    background-color: rgb(96, 149, 19);
+    margin: auto;  
+}
+
+.container-0 h2{
+    margin: auto 0;
+    color: rgb(85, 111, 0);
+    font-weight: 600;
+    padding-top:0.8em;
+    padding: 0.5em;
+    padding-bottom: 0.8em;
+}
+
+
+.container-1{
+    width:95%;
+    padding:1em;
+    border: 3px solid grey;
+    border-right: 8px solid gray;
+    margin:1em auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgb(237, 235, 241);
+}
+.form-box{
+    width:75%;
+    margin: 1em auto;
+}
+.label-input{
+    padding:0.5em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.label-input input{
+    width: 50%;
+    height:5vh;
+    box-shadow: 0 0 8px 8px inset rgba(219, 218, 218, 0.8);
+    border: 1px solid rgb(167, 167, 167);
+}
+@media screen and ( max-width:600px) {
+    .label-input input{
+        width:46vh;      
+    }
+}
+.label-input select{
+    width: 40%;
+    height:5vh;
+    box-shadow: 0 0 8px 8px inset rgba(219, 218, 218, 0.8);
+    border: 1px solid rgb(167, 167, 167);
+}
+.label-input select option{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+.address{
+    width:98%;
+    padding:1px 0;
+    border:  1px solid black;
+    margin:1px auto;
+    margin-top:1em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.address .input-width{
+    padding:0.5em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.input-width input{
+    width: 50%;
+    height:5vh;
+    box-shadow: 0 0 8px 8px inset rgba(219, 218, 218, 0.8);
+    border: 1px solid rgb(167, 167, 167);
+}
+@media screen and ( max-width:600px) {
+    .input-width input{
+        width:40vh;      
+    }  
+}
+.address h3{
+    text-align: center;
+    color:rgb(85, 111, 0) ;
+    padding:0.5em 0;
+}
+.address form P{
+    width:95%;
+    margin: 0 auto;
+}
+.permanent-address{
+    width:49.5%;
+}
+.permanent-address .box-permanent-address{
+    width: 100%;
+    padding:0.5em;
+    background-color: rgb(96, 149, 19);
+}
+.address hr{
+    width:1%;
+    height:60vh;
+    background-color: red;
+}
+@media screen and ( max-width:600px) {
+   .address hr{
+        opacity: 0;
+    }  
+}
+.current-address{
+    width:49.5%;
+}
+.current-address .box-current-address{
+    width:100%;
+    padding: 0.5em;
+    background-color: rgb(96, 149, 19);
+}
+.checkbox-box{
+width:60%;
+margin: 0.2em auto;
+}
+.address .horizontal{
+    width:1%;
+    height:94.5vh;
+    background-color: red;
+}
+@media screen and ( max-width:600px) {
+    .horizontal{
+         opacity: 0;
+     }  
+ }
+
+
+
+
+
+
+
+.Parent-information{
+    width:98%;
+    padding:1px 0;
+    margin:1px auto;
+    margin-top:1em;
+}
+.box-parent{
+    width:100%;
+    background-color: rgb(96, 149, 19); 
+}
+.box-parent h3{
+    margin: auto 0;
+    color: rgb(85, 111, 0);
+    font-weight: 600;
+    padding:0.8em;
+}
+.input-parent{
+    padding: 0.5em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.input-parent input{
+    margin-right: 0;
+    width: 50%;
+    height:5vh;
+    box-shadow: 0 0 8px 8px inset rgba(219, 218, 218, 0.8);
+    border: 1px solid rgb(167, 167, 167);
+}
+@media screen and ( max-width:600px) {
+    .input-parent input{
+        width:40vh;      
+     }  
+ }
+.input-parent  select{
+    width: 40%;
+    height:5vh;
+    box-shadow: 0 0 8px 8px inset rgba(219, 218, 218, 0.8);
+    border: 1px solid rgb(167, 167, 167);
+}
+.input-parent select option{
+    text-align: center;
+}
+.Certificates{
+    padding: 0.5em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.Certificates .file{
+    margin-right:0;
+}
+
+
+
+
+
+
+
+.img-box{
+    width:23%;
+    height:40vh;
+    padding:1em;
+    margin: 1em auto;
+    background-color: #fff;
+    border-radius:8px;
+    box-shadow: 0 0 8px 8px inset rgb(162, 92, 92);
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.img-box  img{
+    width: 150px;
+    height:150px;
+    border-radius:50%;
+    border: 2px solid rgb(125, 120, 120);
+    cursor: pointer;
+    margin:10px;
+    box-shadow: 0 0 8px 8px  rgba(180, 162, 162, 0.8);
+}
+.img-box input{
+    display: none;
+}
+
+
+
+
+
+.full-container{
+    width:95%;
+    height:10vh;
+    margin:0 auto;
+    padding:0.5em;
+    border: 2px dotted rgb(227, 75, 10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and ( max-width:600px) {
+    .full-container{
+        width:40%; 
+        padding: 0.5em;     
+     }  
+ }
+
+
+
+
+
+
+
+ button{
+    margin-top:1em;
+    margin-left:1em;
+    width:30%;
+    height:10VH;
+    background-color: rgb(255, 153, 0);
+    color:white;
+    font-size:1.5em;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+ }
+
+ button:hover{
+    background-color: rgb(237, 100, 41);
+    transition:2s;
+ }
+ @media screen and ( max-width:600px) {
+    .button{
+        margin-top:1em;
+        margin-left:1em;
+        width:15%;
+        height:5VH;
+        background-color: rgb(255, 153, 0);
+        color:white;
+        font-size:0.5em;
+        font-weight: 300;
+        border-radius:5px;
+        border: none;
+     }
+}  
+  
